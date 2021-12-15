@@ -167,10 +167,46 @@ multiLinea: __/* */__
 Deber: hacer un factorial de un numero con while, do-while, for
 
 Para el dia viernes: 
-1. Prioridad de operadores en java
+1. Prioridad de operadores en java: Nombre. Simbolo. Paréntesis, Corchetes, Punto
+
 2. vectores unidimencionales
     + declaracion y definicion
+        En Java se declaran especificando el tipo de dato que almacenarán, el nombre y la identificación [] la cual determina que se trata de un vector.
+        para inicializar las posiciones de un vector, es necesario asignar al vector declarado la palabra new más el tipo de dato y nuevamente [].
+
     + indices
     + asignacion, recorrido y recuperacion de valores
 
-1+2-3*5
+
+1+2-3*5 =12
+
+---
+## NOTAS DE POO 10-12-2021
+  
+  ### Vectores
+
+    Preguntas bien respondidas:
+
+    1. que es un vector: -Respondio bien
+
+    2. preguntas de vectores sobre incremento y decremento(++)
+
+    3. pregunta sobre vectores
+
+    4. que es un funcion - bien respondido
+
+
+  Parametros son los valores recibidos en una funcion. Argumentos son los valores enviados a la funcion.
+
+  ````
+    //parametros
+    int function(int a){
+      return 0;
+    }
+
+    //argumentos
+    int result = function(10);
+  ````
+
+  Una funcion no puede ir dentro de una funcion, para usar static se tiene que poner con tipo de dato int
+

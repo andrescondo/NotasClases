@@ -3,10 +3,10 @@
 ## NOTAS DE POO 3/12/2021
 el metodo main es quien inicia cualquier programa java, estructura:
 
-``
+```
 public static void main(String[] args){
-}
-``
+};
+```
 
 args: el nombre del vector, puede tener cualquier nombre, standar args
 
@@ -199,14 +199,27 @@ Para el dia viernes:
   Parametros son los valores recibidos en una funcion. Argumentos son los valores enviados a la funcion.
 
   ````
-    //parametros
+    //parametros     <>
     int function(int a){
       return 0;
     }
 
-    //argumentos
+    //argumentos          <>
     int result = function(10);
   ````
 
   Una funcion no puede ir dentro de una funcion, para usar static se tiene que poner con tipo de dato int
 
+
+## NOTAS POO 15/12/2021
+
+### Añadir comentarios si o si a las funciones
+
+Uso de comentarios para añadir documentacion
+```
+/**
+* //Titulo de que hace la clase 
+* @params //adicion de parametros, que son y para que sirven
+* @return // si la función retorna algo que es lo que retorna
+*/
+```

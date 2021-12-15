@@ -1,4 +1,4 @@
-public class MyClass {
+public class factorial {
   public static void main(String args[]) {
       String line = "======================";
     //factorial con for

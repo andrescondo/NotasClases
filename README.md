@@ -1,5 +1,7 @@
 # NOTAS DE POO
 
+### Twitter: **@andreescondo**
+
 ## NOTAS DE POO 3/12/2021
 el metodo main es quien inicia cualquier programa java, estructura:
 
@@ -95,7 +97,9 @@ maquina virtual: interpreta el byte code (.class) y ejecuta las instrucciones, t
 
 bytecode: es idependiente de la maquina virtual
 
----
+</br>
+</br>
+
 ---
 
 ## NOTAS DE POO 8-12-2021
@@ -180,6 +184,9 @@ Para el dia viernes:
 
 1+2-3*5 =12
 
+</br>
+</br>
+
 ---
 ## NOTAS DE POO 10-12-2021
   
@@ -210,6 +217,10 @@ Para el dia viernes:
 
   Una funcion no puede ir dentro de una funcion, para usar static se tiene que poner con tipo de dato int
 
+</br>
+</br>
+
+---
 
 ## NOTAS POO 15/12/2021
 
@@ -223,3 +234,44 @@ Uso de comentarios para añadir documentacion
 * @return // si la función retorna algo que es lo que retorna
 */
 ```
+</br>
+</br>
+
+----
+
+## NOTAS POO 22/12/2021
+
+objeto es un entidad que debe tener datos que posee un estado, cambia a partir de una accción (método).
+
+Una clase es una definicio, plantilla, molde que permite la creacion de objetos, y contiene la descripcion de las caracteristicas comunes de esos objetos
+
+Componentes de una clase: </br>
+Parte **dinámica**: Campos con nombres, **_atributos_**.
+Parte **estáticos**: Procedimientos o funciones, **_métodos_**
+
+![clase-objetos](claseObjetos.png)
+
+</br>
+
+### Regla para nombres de clases:
+
+![Regla-Nombre](ReglaNombres.png)
+
+![atributos](atributos.png)
+
+![metodos](metodos.png)
+_Nota: Obligatorio_
+
+Definición de clases
+
+![definicionMetodo](definicionMetodos.png)
+
+![instanciacion](instanciacion.png)
+
+Todas las clases deben tener el mismo numero de atributos
+
+![ejemploInstanciacion](ejemploInstanciacion.png)
+
+Variable Estatica
+
+![varEstatica](variableEstatica.png)
